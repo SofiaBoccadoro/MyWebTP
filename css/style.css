@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&family=Prompt:wght@300;400;500&display=swap');
+
+html {
+    box-sizing: content-box;
+    height: auto;
+
+}
+
+.navbar-brand:hover {
+    color: blue;
+  }
+  
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: auto;
+    font-weight: 300;
+
+}
+
+header {
+
+    background-color: #1E1E1E;
+    height: 75.90vh;
+    padding: 0 8.33vw !important;
+    display: flex;
+
+
+
+
+
+}
+
+.navbar { 
+    background-color: #fcfcfc;
+    font-weight: 400;
+}
+
+
+
+header>div, main > div {
+    height: 100%;
+}
+
+h1,
+h2 {
+
+    font-family: 'Prompt', serif;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 40px;
+    vertical-align: top;
+
+}
+
+h1,
+h3,
+header p {
+    line-height: 125%;
+}
+
+header p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#preInstagram {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 16px;
+  
+    letter-spacing: 5px;
+
+
+
+
+}
+
+main { height: 30vh;}
+
+header a, section a {
+
+
+
+
+    font-size: 20px;
+    width: 37.5%;
+
+    display: block;
+
+    padding: 11.5px 0;
+    border-radius: 5px;
+
+}
+
+#segundoTitulo {
+    height: auto;
+
+
+}
+
+
+.custom-border {
+    border: 2px  rgb(255, 255, 255);
+    align-items: center;
+  }
+
+
+#myCarousel, #secondImage{
+    height: auto;
+    width: auto;
+    padding-bottom: 40px;
+    transition: opacity 0.5s ease-out;
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+
+
+        height: auto;
+        padding: 40px
+    }
+
+
+
+
+
+}
+
+section {
+    color: black;
+
+}
+
+#SendMail {
+    height: auto;
+    margin-top: 5px;
+    width: 100%;
+
+
+}
+
+
+footer {
+    background-color: #1E1E1E;
+    color: #fcfcfc;
+    height: 15.90vh;
+
+}
+
